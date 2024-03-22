@@ -3,7 +3,7 @@ function semRetorno(...args: string[]): void {
 }
 
 const pessoa = {
-  nome: 'Luiz',
+  nome: 'Victor',
   sobrenome: 'Otávio',
 
   exibirNome(): void {
@@ -11,7 +11,7 @@ const pessoa = {
   },
 };
 
-semRetorno('Luiz', 'Otávio');
+semRetorno('Victor', 'Otávio');
 pessoa.exibirNome();
 
 export { pessoa };

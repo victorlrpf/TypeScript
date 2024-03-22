@@ -1,5 +1,5 @@
 const objetoA: {
-  readonly chaveA: string;
+  readonly chaveA: string; // Não podemos alterar a chave, pq ela é readonly
   chaveB: string;
   chaveC?: string;
   [key: string]: unknown;

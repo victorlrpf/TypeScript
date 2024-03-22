@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // Tipos básicos (aqui ocorre inferência de tipos)
-let nome: string = 'Luiz'; // Qualquer tipo de strings: '' "" ``
+let nome: string = 'Victor'; // Qualquer tipo de strings: '' "" ``
 let idade: number = 0b1010; // 10, 1.57, -5.55, 0xf00d, 0b1010, 0o7744
 let adulto: boolean = true; // true ou false
 let simbolo: symbol = Symbol('qualquer-symbol'); // symbol
@@ -16,7 +16,7 @@ let arrayDeStrings2: string[] = ['a', 'b'];
 // Objetos
 let pessoa: {nome: string, idade: number, adulto?: boolean} = {
   idade: 30,
-  nome: 'Luiz'
+  nome: 'Victor'
 };
 
 // Funções
